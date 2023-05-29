@@ -14,7 +14,7 @@ public class Getmethod {
 	
 	{
 		
-	Response res =RestAssured.get("https://reqres.in/api/users?page=2");
+	Response res =RestAssured.get("https://api.manentia.ai/api/dashboard/");
 	System.out.println("response code:" +res.getStatusCode());
 	System.out.println("response time:" +res.getTime());
 	System.out.println("response body:" +res.getBody());

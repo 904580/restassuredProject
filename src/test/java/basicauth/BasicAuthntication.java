@@ -12,12 +12,12 @@ public class BasicAuthntication {
 	public void basicauthntication() {
 		
 		RequestSpecification reqspec=RestAssured.given();
-		reqspec.baseUri("http://postman.echo.com");
-		reqspec.basePath("/basic-auth");
+		reqspec.baseUri("https://api.manentia.ai/");
+		reqspec.basePath("api/dashboard/");
 		
 		
 		//PERFORM GET REQUEST
-		Response responses =reqspec.auth().basic("postman", "password").get();
+		Response responses =reqspec.auth().basic("Email ID", "password").get();
 		
 		//print status line
 		System.out.println("Response Status:" + responses.getStatusLine());

@@ -14,11 +14,11 @@ public class PostMethod {
 	@Test
 	public void PostApi() {
 		
-		RestAssured.baseURI="https://rahulshettyacademy.com";
+		RestAssured.baseURI=" https://api.manentia.ai/api/signup/";
 		given().log().all().queryParam("key","qaclick123").header("Content-Type","Application/Json").body(AddPlace.placePayload())
 				
 		.when().post("maps/api/place/add/json")
-		.then().assertThat().statusCode(200).log().all().header("Server", "Apache/2.4.41 (Ubuntu)");
+		.then().assertThat().statusCode(200).log().all();
 		//.body("status", equalTo("OK"));
 		
 	}}
