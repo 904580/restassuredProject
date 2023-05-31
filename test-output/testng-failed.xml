@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.Login">
+      <class name="api.Ctscan">
         <methods>
-          <include name="basicauthntication"/>
-          <include name="hit"/>
+          <include name="test03"/>
         </methods>
-      </class> <!-- api.Login -->
+      </class> <!-- api.Ctscan -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

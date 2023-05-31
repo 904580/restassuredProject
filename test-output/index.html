@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Anoop saini\AppData\Local\Temp\testng-eclipse--14424956\testng-customsuite.xml</span>
+                    <span>C:\Users\Anoop saini\AppData\Local\Temp\testng-eclipse--1380089696\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,12 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="api.Login" class="method navigator-link" hash-for-method="basicauthntication">basicauthntication</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="api.Login" class="method navigator-link" hash-for-method="hit">hit</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="api.Ctscan" class="method navigator-link" hash-for-method="test03">test03</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -122,7 +117,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="api.Login" class="method navigator-link" hash-for-method="Unauth">Unauth</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="api.Ctscan" class="method navigator-link" hash-for-method="test02">test02</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -140,62 +135,16 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">api.Login</span>
+              <span class="class-name">api.Ctscan</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="basicauthntication">
-                  </a> <!-- basicauthntication -->
-                  <span class="method-name">basicauthntication</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [201]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1418)
-	at org.testng.Assert.assertEquals(Assert.java:1382)
-	at org.testng.Assert.assertEquals(Assert.java:1428)
-	at api.Login.basicauthntication(Login.java:32)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="hit">
-                  </a> <!-- hit -->
-                  <span class="method-name">hit</span>
+                  <a name="test03">
+                  </a> <!-- test03 -->
+                  <span class="method-name">test03</span>
                   <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;405&gt;.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
 
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -223,7 +172,7 @@ Expected status code &lt;200&gt; but was &lt;405&gt;.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at api.Login.hit(Login.java:50)
+	at api.Ctscan.test03(Ctscan.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -261,14 +210,14 @@ Expected status code &lt;200&gt; but was &lt;405&gt;.
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">api.Login</span>
+              <span class="class-name">api.Ctscan</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Unauth">
-                  </a> <!-- Unauth -->
-                  <span class="method-name">Unauth</span>
+                  <a name="test02">
+                  </a> <!-- test02 -->
+                  <span class="method-name">test02</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,7 +225,7 @@ Expected status code &lt;200&gt; but was &lt;405&gt;.
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Anoop saini\AppData\Local\Temp\testng-eclipse--14424956\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Anoop saini\AppData\Local\Temp\testng-eclipse--1380089696\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -285,7 +234,7 @@ Expected status code &lt;200&gt; but was &lt;405&gt;.
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;api.Login&quot;/&gt;
+      &lt;class name=&quot;api.Ctscan&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -325,24 +274,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'basicauthntication')
-data.setCell(0, 2, 'api.Login')
-data.setCell(0, 3, 3769);
+data.setCell(0, 1, 'test02')
+data.setCell(0, 2, 'api.Ctscan')
+data.setCell(0, 3, 4373);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Unauth')
-data.setCell(1, 2, 'api.Login')
-data.setCell(1, 3, 619);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'hit')
-data.setCell(2, 2, 'api.Login')
-data.setCell(2, 3, 478);
+data.setCell(1, 1, 'test03')
+data.setCell(1, 2, 'api.Ctscan')
+data.setCell(1, 3, 799);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -368,22 +313,16 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">api.Login</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">api.Ctscan</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">basicauthntication</span>
+                <span class="method-name">test02</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Unauth</span>
-                <span class="method-start">3784 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">hit</span>
-                <span class="method-start">4409 ms</span>
+                <span class="method-name">test03</span>
+                <span class="method-start">4404 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
