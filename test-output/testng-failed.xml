@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.Login">
+      <class name="API2.AddPlaceTest">
         <methods>
-          <include name="basicauthntication"/>
-          <include name="hit"/>
+          <include name="PostApi"/>
         </methods>
-      </class> <!-- api.Login -->
+      </class> <!-- API2.AddPlaceTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

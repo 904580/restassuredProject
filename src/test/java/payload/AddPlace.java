@@ -2,16 +2,16 @@ package payload;
 
 public class AddPlace {
 
-	public static String placePayload() {
+	public static String placePayload(String name,String address) {
 		return "{\r\n"
 				+ "  \"location\": {\r\n"
 				+ "    \"lat\": -38.383494,\r\n"
 				+ "    \"lng\": 33.427362\r\n"
 				+ "  },\r\n"
 				+ "  \"accuracy\": 50,\r\n"
-				+ "  \"name\": \"Frontline house\",\r\n"
+				+ "  \"name\": \""+name+"\",\r\n"
 				+ "  \"phone_number\": \"(+91) 983 893 3937\",\r\n"
-				+ "  \"address\": \"29, side layout, cohen 09\",\r\n"
+				+ "  \"address\": \""+address+"\",\r\n"
 				+ "  \"types\": [\r\n"
 				+ "    \"shoe park\",\r\n"
 				+ "    \"shop\"\r\n"
